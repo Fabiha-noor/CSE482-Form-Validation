@@ -1,0 +1,56 @@
+h1,h2,h3{
+	text-align: center;
+	text-decoration: bold;
+	
+	color: red;
+}
+.header{
+	
+  background-color: #005c99;
+}
+form{
+	width: 800px;
+	margin: auto;
+	text-align:left;
+	border: 10px solid salmon;
+	padding: 30px 40px;
+
+}
+
+
+input{
+
+    border: 2px solid;
+    border-radius: 4px;
+    display: flex;
+    width:100%;
+    padding: 10px;
+    font-size: 14px;
+
+}
+form-label{
+    color: #777 ;
+    display: block;
+    margin-bottom: 5px;
+}
+ input:focus{
+    outline: 0;
+    border-color: seashell;
+    
+}
+/*input[type=text], input[type=password], input[type=email] /*input[type=number],*/  {
+	width: 50vx;
+	padding: 10px;
+	margin: 15px 0 22px 0 ;
+	border-radius: 4px;
+	display: inline-block;
+	border: none;
+	background: skyblue;
+	font-size: 14px;
+}
+
+button{
+	color: white;
+
+	margin: 14px 20px ;
+}
